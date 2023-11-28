@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/Dependabot/"
+  open-pull-requests-limit: 10
+  schedule:
+    interval: weekly
+    day: sunday
+  groups:
+    default:
+      patterns:
+        - "*"
